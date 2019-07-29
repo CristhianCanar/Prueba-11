@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Prueba11</string>
+    <string name="writesd">Write SD</string>
+    <string name="readsd">Read SD</string>
+    <string name="writeintern">Write IM</string>
+    <string name="readmi">Read IM</string>
+    <string name="readprogram">Read Program</string>
 </resources>
