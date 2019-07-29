@@ -38,8 +38,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.btnCristhian:
-
-
+                Intent intent = new Intent(this, ActivityCristhian.class);
+                startActivity(intent);
+                finish();
                 break;
         }
     }

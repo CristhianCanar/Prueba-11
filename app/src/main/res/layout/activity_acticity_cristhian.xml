@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityCristhian">
+
+    <Button
+        android:id="@+id/btnLeerExterna"
+        android:layout_width="215dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginRight="98dp"
+        android:text="Leer Memoria externa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEscribirMemInterna" />
+
+    <Button
+        android:id="@+id/btnEscribirExterna"
+        android:layout_width="215dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginRight="98dp"
+        android:text="Escribir Memoria externa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLeerExterna" />
+
+    <Button
+        android:id="@+id/btnLeerDesdePrograma"
+        android:layout_width="215dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginRight="98dp"
+        android:text="Leer programa"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEscribirExterna" />
+
+    <Button
+        android:id="@+id/btnLeerMemInterna"
+        android:layout_width="215dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:text="Leer Memoria interna"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRespuesta" />
+
+    <Button
+        android:id="@+id/btnEscribirMemInterna"
+        android:layout_width="215dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:text="Escribir Memoria interna"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLeerMemInterna" />
+
+    <TextView
+        android:id="@+id/tvRespuesta"
+        android:layout_width="215dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="101dp"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
